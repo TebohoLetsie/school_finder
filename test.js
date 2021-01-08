@@ -34,7 +34,7 @@ app.use(passport.session());
 
  mongoose.connect("mongodb://localhost:27017/schoolDB",{useNewUrlParser:true, useUnifiedTopology:true});
 mongoose.set("useCreateIndex",true);
-// mongoose.connect("mongodb+srv://admin-teboho:070997@cluster0.iffup.mongodb.net/schoolDB",{useNewUrlParser:true,useUnifiedTopology:true});
+
 const pusher = new Pusher({
   appId: "1118414",
   key: "ab47a5ed9c98a4ad045e",
